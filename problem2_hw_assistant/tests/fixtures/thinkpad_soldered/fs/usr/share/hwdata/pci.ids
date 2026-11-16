@@ -1,0 +1,9 @@
+#
+#	List of PCI ID's (excerpt)
+#
+1002  Advanced Micro Devices, Inc. [AMD/ATI]
+	1636  Renoir [Radeon RX Vega 6 (Ryzen 4000/5000 Mobile Series)]
+	1638  Cezanne [Radeon Vega Series / Radeon Vega Mobile Series]
+		17aa 5098  ThinkPad E14 Gen 4
+10de  NVIDIA Corporation
+	1f97  TU117M [GeForce MX450]

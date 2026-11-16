@@ -1,0 +1,16 @@
+# /etc/sudoers.d/hwqa
+#
+# Lets members of the "hwqa" group run exactly these read-only commands as root
+# without a password, so hwqa can see RAM slots, the serial number and SMART data.
+#
+#   sudo groupadd -f hwqa && sudo usermod -aG hwqa "$USER"
+#   sudo visudo -f /etc/sudoers.d/hwqa        # paste this file, save, log out and in
+#
+# `hwqa --print-sudoers` prints the same rule with the binary paths of your distro.
+#
+# Every line pins the full argument list. Don't use "*" in sudoers arguments:
+# it matches spaces too, so "/dev/sd*" would also allow "/dev/sda -s on", which
+# changes drive settings. The [..] classes below match exactly one character.
+
+%hwqa ALL=(root) NOPASSWD: /usr/sbin/dmidecode -t memory, /usr/sbin/dmidecode -t system
+%hwqa ALL=(root) NOPASSWD: /usr/sbin/smartctl -H -A -j /dev/nvme[0-9]n[0-9], /usr/sbin/smartctl -H -A -j /dev/sd[a-z]

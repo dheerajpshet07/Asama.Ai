@@ -1,0 +1,35 @@
+{
+  "smartctl": {
+    "version": [
+      7,
+      2
+    ]
+  },
+  "device": {
+    "name": "/dev/nvme0n1",
+    "type": "nvme",
+    "protocol": "NVMe"
+  },
+  "model_name": "SAMSUNG MZVLB512HBJQ-000L7",
+  "smart_status": {
+    "passed": true
+  },
+  "nvme_smart_health_information_log": {
+    "critical_warning": 0,
+    "temperature": 38,
+    "available_spare": 100,
+    "available_spare_threshold": 10,
+    "percentage_used": 3,
+    "data_units_read": 21234567,
+    "data_units_written": 18765432,
+    "power_on_hours": 2789,
+    "unsafe_shutdowns": 41,
+    "media_errors": 0
+  },
+  "temperature": {
+    "current": 38
+  },
+  "power_on_time": {
+    "hours": 2789
+  }
+}

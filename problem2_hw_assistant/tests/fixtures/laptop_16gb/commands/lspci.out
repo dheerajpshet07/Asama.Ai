@@ -1,0 +1,50 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	11th Gen Core Processor Host Bridge/DRAM Registers [9a14]
+SVendor:	Acme Computers [1d72]
+SDevice:	Device [1701]
+Rev:	01
+Driver:	igen6_edac
+
+Slot:	00:02.0
+Class:	VGA compatible controller [0300]
+Vendor:	Intel Corporation [8086]
+Device:	TigerLake-LP GT2 [Iris Xe Graphics] [9a49]
+SVendor:	Acme Computers [1d72]
+SDevice:	Device [1701]
+Rev:	01
+ProgIf:	00
+Driver:	i915
+Module:	i915
+
+Slot:	00:14.3
+Class:	Network controller [0280]
+Vendor:	Intel Corporation [8086]
+Device:	Wi-Fi 6 AX201 [a0f0]
+SVendor:	Intel Corporation [8086]
+SDevice:	Wi-Fi 6 AX201 160MHz [0244]
+Rev:	20
+Driver:	iwlwifi
+Module:	iwlwifi
+
+Slot:	01:00.0
+Class:	3D controller [0302]
+Vendor:	NVIDIA Corporation [10de]
+Device:	TU117M [GeForce MX450] [1f97]
+SVendor:	Acme Computers [1d72]
+SDevice:	Device [1701]
+Rev:	a1
+Driver:	nvidia
+Module:	nouveau
+Module:	nvidia
+
+Slot:	02:00.0
+Class:	Non-Volatile memory controller [0108]
+Vendor:	Samsung Electronics Co Ltd [144d]
+Device:	NVMe SSD Controller SM981/PM981/PM983 [a808]
+SVendor:	Samsung Electronics Co Ltd [144d]
+SDevice:	SSD 970 EVO/PRO [a801]
+ProgIf:	02
+Driver:	nvme
+Module:	nvme

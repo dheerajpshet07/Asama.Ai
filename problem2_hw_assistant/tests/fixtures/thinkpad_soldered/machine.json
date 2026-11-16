@@ -1,0 +1,9 @@
+{
+  "description": "AMD laptop, 8 GB soldered + one SODIMM slot, Fedora, no root, and lspci/lsusb/lsblk not installed",
+  "is_root": false,
+  "sudo": false,
+  "kernel": "6.7.5-200.fc39.x86_64",
+  "links": {
+    "/sys/class/net/wlp1s0/device/driver": "../../../../bus/pci/drivers/rtw89_8852ae"
+  }
+}

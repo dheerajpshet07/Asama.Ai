@@ -1,0 +1,58 @@
+{
+   "blockdevices": [
+      {
+         "name": "loop0",
+         "kname": "loop0",
+         "type": "loop",
+         "size": 4096,
+         "model": null,
+         "vendor": null,
+         "rota": false,
+         "tran": null,
+         "rm": false,
+         "mountpoint": "/snap/bare/5",
+         "fstype": "squashfs"
+      },
+      {
+         "name": "nvme0n1",
+         "kname": "nvme0n1",
+         "type": "disk",
+         "size": 512110190592,
+         "model": "SAMSUNG MZVLB512HBJQ-000L7",
+         "vendor": null,
+         "rota": false,
+         "tran": "nvme",
+         "rm": false,
+         "mountpoint": null,
+         "fstype": null,
+         "children": [
+            {
+               "name": "nvme0n1p1",
+               "kname": "nvme0n1p1",
+               "type": "part",
+               "size": 536870912,
+               "model": null,
+               "vendor": null,
+               "rota": false,
+               "tran": "nvme",
+               "rm": false,
+               "mountpoint": "/boot/efi",
+               "fstype": "vfat"
+            },
+            {
+               "name": "nvme0n1p2",
+               "kname": "nvme0n1p2",
+               "type": "part",
+               "size": 511571247104,
+               "model": null,
+               "vendor": null,
+               "rota": false,
+               "tran": "nvme",
+               "rm": false,
+               "mountpoint": "/",
+               "fstype": "ext4"
+            }
+         ]
+      }
+   ]
+}

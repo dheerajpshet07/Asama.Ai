@@ -1,0 +1,24 @@
+{
+  "description": "Intel laptop: 16 GB DDR4 in 1 of 2 SODIMM slots (board max 64 GB), 512 GB NVMe, Iris Xe + GeForce MX450",
+  "is_root": false,
+  "sudo": true,
+  "kernel": "6.5.0-21-generic",
+  "disk_usage": {
+    "/": [
+      502468108288,
+      187123712000,
+      289744478208
+    ],
+    "/boot/efi": [
+      535805952,
+      6488064,
+      529317888
+    ]
+  },
+  "links": {
+    "/sys/class/net/wlp0s20f3/device/driver": "../../../../bus/pci/drivers/iwlwifi"
+  },
+  "root_only_files": [
+    "/sys/class/dmi/id/product_serial"
+  ]
+}
