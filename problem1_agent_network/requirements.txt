@@ -1,0 +1,12 @@
+fastapi>=0.110
+uvicorn>=0.29
+sqlalchemy>=2.0
+pydantic>=2.6
+httpx>=0.27
+numpy>=1.26
+
+# optional: LLM judge + LLM-written agent replies with Claude (AGENTNET_LLM=anthropic)
+# anthropic
+
+# tests
+pytest>=8.0

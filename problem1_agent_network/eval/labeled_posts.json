@@ -1,0 +1,220 @@
+[
+  {
+    "id": "p01",
+    "author": "swiggy",
+    "kind": "offer",
+    "title": "Diwali food delivery discount",
+    "body": "Swiggy is offering flat 5% off on all delivery orders above Rs 300 during Diwali week (Oct 28 - Nov 3).",
+    "must": ["phonepe", "hdfc-bank"],
+    "ok": [],
+    "note": "The example from the brief. Bajaj Auto must not be notified."
+  },
+  {
+    "id": "p02",
+    "author": "bajaj-auto",
+    "kind": "announcement",
+    "title": "Chetak electric scooter festive bookings open",
+    "body": "Bookings for the new Chetak electric scooter are open across 3,000 dealerships, with deliveries from Dhanteras. We are looking for financing partners to offer low-cost EMIs and for insurers to issue cover at the showroom.",
+    "must": ["hdfc-bank", "acko", "tata-power"],
+    "ok": ["swiggy", "zepto"]
+  },
+  {
+    "id": "p03",
+    "author": "hdfc-bank",
+    "kind": "offer",
+    "title": "Festive card offers for merchants",
+    "body": "HDFC Bank is funding a 10% instant discount on credit cards for online shopping, flight and hotel bookings and electronics this festive season. E-commerce and travel merchants can join the programme.",
+    "must": ["flipkart", "makemytrip"],
+    "ok": ["swiggy", "zepto", "airtel", "acko"]
+  },
+  {
+    "id": "p04",
+    "author": "phonepe",
+    "kind": "market_update",
+    "title": "UPI Lite limit raised",
+    "body": "NPCI has raised the UPI Lite per-transaction limit to Rs 1,000. PhonePe users can now make small payments faster at merchants without entering a PIN.",
+    "must": ["hdfc-bank"],
+    "ok": ["flipkart", "swiggy", "zepto", "makemytrip", "airtel"]
+  },
+  {
+    "id": "p05",
+    "author": "tata-power",
+    "kind": "announcement",
+    "title": "Fast charging network reaches 500 cities",
+    "body": "Tata Power EZ Charge now runs fast charging stations for electric two-wheelers and cars in 500 cities, with fleet plans for delivery operators.",
+    "must": ["bajaj-auto"],
+    "ok": ["swiggy", "zepto", "acko"]
+  },
+  {
+    "id": "p06",
+    "author": "airtel",
+    "kind": "offer",
+    "title": "Cricket season prepaid plan",
+    "body": "Airtel launches a Rs 449 prepaid plan with unlimited 5G data and a free OTT streaming subscription for the cricket season.",
+    "must": ["phonepe"],
+    "ok": ["flipkart"]
+  },
+  {
+    "id": "p07",
+    "author": "makemytrip",
+    "kind": "partnership_request",
+    "title": "Winter holiday flight and hotel sale",
+    "body": "Up to 20% off domestic flights and hotels for the December holidays. Looking for bank and card partners to add instant discounts, and for an insurer to add trip cover.",
+    "must": ["hdfc-bank", "phonepe", "acko"],
+    "ok": []
+  },
+  {
+    "id": "p08",
+    "author": "flipkart",
+    "kind": "announcement",
+    "title": "Big Billion Days dates announced",
+    "body": "Big Billion Days runs Sept 27 - Oct 4 with deep discounts on smartphones, TVs and fashion. Bank partners and payment providers can apply for checkout offers.",
+    "must": ["hdfc-bank", "phonepe"],
+    "ok": ["airtel", "acko"]
+  },
+  {
+    "id": "p09",
+    "author": "zepto",
+    "kind": "announcement",
+    "title": "10-minute grocery delivery in 15 new cities",
+    "body": "Zepto is launching 10-minute grocery delivery in 15 new cities with 200 new dark stores. We are hiring delivery partners and looking for electric scooter fleet and charging partners.",
+    "must": ["tata-power", "bajaj-auto"],
+    "ok": ["phonepe", "hdfc-bank", "swiggy"]
+  },
+  {
+    "id": "p10",
+    "author": "acko",
+    "kind": "partnership_request",
+    "title": "Embed motor insurance at the point of sale",
+    "body": "Acko now offers instant motor insurance that dealers and vehicle makers can embed at checkout with a single API call.",
+    "must": ["bajaj-auto"],
+    "ok": ["hdfc-bank"]
+  },
+  {
+    "id": "p11",
+    "author": "hdfc-bank",
+    "kind": "market_update",
+    "title": "Repo rate unchanged, vehicle loan rates steady",
+    "body": "After RBI kept the repo rate at 6.5%, HDFC Bank is holding its two-wheeler and car loan interest rates through the festive season.",
+    "must": ["bajaj-auto"],
+    "ok": ["phonepe", "acko"]
+  },
+  {
+    "id": "p12",
+    "author": "swiggy",
+    "kind": "announcement",
+    "title": "Swiggy is moving 30% of its delivery fleet to electric",
+    "body": "Swiggy will move 30% of delivery partner trips to electric scooters by March and is looking for vehicle and charging partners.",
+    "must": ["tata-power", "bajaj-auto"],
+    "ok": ["zepto", "hdfc-bank", "acko"]
+  },
+  {
+    "id": "p13",
+    "author": "phonepe",
+    "kind": "alert",
+    "title": "Scam alert: fake Diwali cashback links",
+    "body": "Fraudsters are sending fake 'Diwali cashback' links that ask users to enter their UPI PIN. PhonePe will never ask for a PIN to receive money.",
+    "must": ["hdfc-bank"],
+    "ok": ["flipkart", "swiggy", "zepto", "airtel", "makemytrip"]
+  },
+  {
+    "id": "p14",
+    "author": "bajaj-auto",
+    "kind": "market_update",
+    "title": "Two-wheeler sales up 18% in October",
+    "body": "Bajaj Auto's domestic two-wheeler sales grew 18% year on year in October, led by festive demand in tier-2 towns.",
+    "must": [],
+    "ok": ["hdfc-bank", "acko", "tata-power"]
+  },
+  {
+    "id": "p15",
+    "author": "airtel",
+    "kind": "alert",
+    "title": "Scheduled network maintenance in Mumbai",
+    "body": "Airtel will carry out scheduled maintenance in parts of Mumbai on Sunday between 2 and 5 AM. Some customers may see brief service disruption.",
+    "must": [],
+    "ok": []
+  },
+  {
+    "id": "p16",
+    "author": "flipkart",
+    "kind": "partnership_request",
+    "title": "Electric delivery vans for the festive peak",
+    "body": "Flipkart needs extra last-mile delivery capacity in 40 cities for the festive peak and wants to add electric vans and three-wheelers to its fleet.",
+    "must": ["bajaj-auto", "tata-power"],
+    "ok": ["hdfc-bank", "acko"]
+  },
+  {
+    "id": "p17",
+    "author": "makemytrip",
+    "kind": "announcement",
+    "title": "Travel insurance on every international booking",
+    "body": "MakeMyTrip will include travel insurance with every international flight booking from next month and is choosing an insurance partner.",
+    "must": ["acko"],
+    "ok": ["hdfc-bank"]
+  },
+  {
+    "id": "p18",
+    "author": "tata-power",
+    "kind": "partnership_request",
+    "title": "Rooftop solar on zero-cost EMI",
+    "body": "Tata Power rooftop solar is now available on 0% EMI. We are looking for bank partners to finance installations for homeowners.",
+    "must": ["hdfc-bank"],
+    "ok": []
+  },
+  {
+    "id": "p19",
+    "author": "zepto",
+    "kind": "offer",
+    "title": "Zepto Pass: free delivery above Rs 99",
+    "body": "Zepto Pass members get free delivery on grocery orders above Rs 99 and extra discounts on fruits and vegetables.",
+    "must": ["phonepe"],
+    "ok": ["hdfc-bank"],
+    "note": "HDFC's profile lists e-commerce, food delivery, travel and electronics but not grocery, so it is ok rather than must."
+  },
+  {
+    "id": "p20",
+    "author": "airtel",
+    "kind": "offer",
+    "title": "Free OTT with smartphones bought on Flipkart",
+    "body": "Airtel customers who buy a 5G smartphone on Flipkart get six months of a free OTT subscription.",
+    "must": ["flipkart"],
+    "ok": ["hdfc-bank", "phonepe"]
+  },
+  {
+    "id": "p21",
+    "author": "phonepe",
+    "kind": "offer",
+    "title": "Rs 100 cashback on first flight booking via UPI",
+    "body": "PhonePe is giving Rs 100 cashback on the first flight booking paid with UPI on any travel app.",
+    "must": ["makemytrip"],
+    "ok": ["hdfc-bank", "acko"]
+  },
+  {
+    "id": "p22",
+    "author": "hdfc-bank",
+    "kind": "offer",
+    "title": "Pre-approved two-wheeler loans in 10 seconds",
+    "body": "HDFC Bank customers can now get pre-approved two-wheeler loans instantly at dealerships, with zero processing fee this month.",
+    "must": ["bajaj-auto"],
+    "ok": ["acko", "tata-power"]
+  },
+  {
+    "id": "p23",
+    "author": "acko",
+    "kind": "offer",
+    "title": "Free device protection on smartphones this Diwali",
+    "body": "Acko is giving free one-year device protection on smartphones bought online during Diwali sales.",
+    "must": ["flipkart"],
+    "ok": ["airtel", "hdfc-bank", "phonepe"]
+  },
+  {
+    "id": "p24",
+    "author": "swiggy",
+    "kind": "announcement",
+    "title": "New restaurant partner onboarding flow",
+    "body": "Swiggy has simplified restaurant partner onboarding: restaurants can now list their menu and go live in 24 hours.",
+    "must": [],
+    "ok": ["phonepe", "hdfc-bank"]
+  }
+]
