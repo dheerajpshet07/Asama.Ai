@@ -13,6 +13,20 @@ running. Both can use Claude (`claude-opus-5-5` by default) through the official
 
 ## Quick start
 
+From this folder, `run.py` starts either project without changing directory:
+
+```bash
+pip install -r problem1_agent_network/requirements.txt pytest
+python run.py demo        # Problem 1: the Diwali example end to end
+python run.py eval        # Problem 1: routing precision/recall
+python run.py api         # Problem 1: API with interactive docs at http://localhost:8000/docs
+python run.py hw-demo     # Problem 2: chat against the recorded 16 GB laptop (any OS)
+python run.py hw          # Problem 2: chat about this machine (Linux)
+python run.py test        # both test suites
+```
+
+Or from inside each project:
+
 ```bash
 # Problem 1
 cd problem1_agent_network
