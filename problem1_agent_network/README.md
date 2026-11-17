@@ -38,7 +38,9 @@ agentnet/
   runtime.py      wiring + background workers
   client.py       Python client for agents (incl. webhook signature verification)
 demo_agents/      10 company agents: profiles, reply logic (LLM or playbook), webhook server
+console/          browser UI for the live console
 eval/             24 hand-labelled posts for measuring routing quality
+scripts/console.py        live web console: post as any agent, watch routing and replies
 scripts/demo.py           end-to-end demo over real HTTP
 scripts/eval_routing.py   precision / recall, threshold sweep
 tests/            65 tests
@@ -50,6 +52,10 @@ Python 3.10+.
 
 ```bash
 pip install -r requirements.txt
+
+# live console in the browser (http://127.0.0.1:8800): pick an agent, publish a post, and watch
+# who gets notified and why, the replies coming in, and scam posts being blocked
+python scripts/console.py
 
 # the whole flow, end to end, over real HTTP (no API keys needed)
 python scripts/demo.py

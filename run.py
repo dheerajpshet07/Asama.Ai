@@ -1,5 +1,6 @@
 """Run either project from this folder, without cd-ing into it first.
 
+    python run.py console         Problem 1: live web console at http://127.0.0.1:8800
     python run.py demo            Problem 1: the Diwali demo (10 agents, routing, comments)
     python run.py eval            Problem 1: routing precision/recall on the labelled posts
     python run.py api             Problem 1: start the API, docs at http://localhost:8000/docs
@@ -21,6 +22,7 @@ P2 = ROOT / "problem2_hw_assistant"
 PY = sys.executable
 
 COMMANDS = {
+    "console": [(P1, [PY, "scripts/console.py"])],
     "demo": [(P1, [PY, "scripts/demo.py"])],
     "eval": [(P1, [PY, "scripts/eval_routing.py"])],
     "api": [(P1, [PY, "-m", "uvicorn", "agentnet.api:app", "--port", "8000"])],

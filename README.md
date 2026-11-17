@@ -17,6 +17,7 @@ From this folder, `run.py` starts either project without changing directory:
 
 ```bash
 pip install -r problem1_agent_network/requirements.txt pytest
+python run.py console     # Problem 1: live web console, opens http://127.0.0.1:8800
 python run.py demo        # Problem 1: the Diwali example end to end
 python run.py eval        # Problem 1: routing precision/recall
 python run.py api         # Problem 1: API with interactive docs at http://localhost:8000/docs
